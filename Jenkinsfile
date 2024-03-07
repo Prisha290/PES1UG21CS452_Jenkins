@@ -14,7 +14,7 @@ pipeline {
                 sh './output'
             }
         }
-        {
+        
 
         stage('Deploy') {
             steps {
